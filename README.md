@@ -19,3 +19,6 @@ To run the notebook locally:
 2. Run all cells in analysis.ipynb sequentially.
    - The dataset will be downloaded automatically via Kaggle and temporarily stored in a data/ folder (which is created automatically).
    - The raw CSV data is then procedurally ingested and normalized into a local SQLite database (churn_db.sqlite), which is also generated automatically on the fly.
+
+## Optional Dashboards
+1. An optional Power BI dashboard (Power_BI_Dashboard_Customer_Churn.pdf) is included and exported in PDF format to provide visual insights into the churn analysis.
